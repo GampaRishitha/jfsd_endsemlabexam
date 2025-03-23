@@ -1,70 +1,91 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# **JFSD End Sem Lab Exam**  
 
-In the project directory, you can run:
+## **Overview**  
+This project is part of the **JFSD (Java Full Stack Development) End Semester Lab Exam**. It demonstrates a **full-stack web application** using **Spring Boot** for the backend and **ReactJS** for the frontend. The application includes user authentication, database integration, and CRUD operations.  
 
-### `npm start`
+## **Key Features**  
+✅ **User Authentication** – Secure login and registration.  
+✅ **Database Integration** – Uses **PostgreSQL** with Hibernate ORM.  
+✅ **CRUD Operations** – Create, Read, Update, and Delete functionalities.  
+✅ **REST API** – Well-structured endpoints for seamless frontend-backend communication.  
+✅ **Payment Integration** (if applicable) – Paytm payment gateway for transactions.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Tech Stack**  
+- **Spring Boot** – Backend framework  
+- **Hibernate** – ORM for database interaction  
+- **PostgreSQL** – Database  
+- **ReactJS** – Frontend framework  
+- **CSS (in JS)** – Styling without separate CSS files  
+- **Paytm API** (if integrated) – Secure payment processing  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Installation & Setup**  
 
-### `npm test`
+### **Backend Setup (Spring Boot)**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ **Clone the repository:**  
+```sh
+git clone https://github.com/GampaRishitha/jfsd_endsemlabexam.git
+cd jfsd_endsemlabexam/backend
+```
+2️⃣ **Configure the database:**  
+- Update **`application.properties`** with PostgreSQL credentials.  
 
-### `npm run build`
+3️⃣ **Build and run the backend:**  
+```sh
+mvn clean install
+mvn spring-boot:run
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Frontend Setup (ReactJS)**  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1️⃣ **Navigate to the frontend directory:**  
+```sh
+cd frontend
+```
+2️⃣ **Install dependencies:**  
+```sh
+npm install
+```
+3️⃣ **Run the frontend:**  
+```sh
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Project Structure**  
+📂 **jfsd_endsemlabexam**  
+ ├── 📁 **backend** → Spring Boot application  
+ ├── 📁 **frontend** → ReactJS application  
+ ├── 📄 **README.md** → Project documentation  
+ ├── 📄 **database.sql** → Sample database structure  
+ ├── 📁 **controllers** → API endpoints  
+ ├── 📁 **models** → Database models  
+ ├── 📁 **services** → Business logic  
+ ├── 📄 **package.json** → Frontend dependencies  
+ ├── 📄 **application.properties** → Backend configuration  
+ └── 📄 **PAYTM.md** → Payment integration guide (if applicable)  
 
-### `npm run eject`
+## **How It Works**  
+- **Users can register and log in securely.**  
+- **CRUD operations** allow managing data efficiently.  
+- **Database integration** ensures data persistence.  
+- **REST API** connects the frontend and backend seamlessly.  
+- **Payment system** (if applicable) handles transactions securely.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Contribution**  
+Contributions are welcome! You can:  
+✅ Optimize backend performance.  
+✅ Improve UI/UX.  
+✅ Enhance security measures.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **License**  
+This project is open-source and available under the **MIT License**.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Contact**  
+For queries or collaboration, reach out via **GitHub Issues** or email.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 **Happy Coding!**  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
